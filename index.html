@@ -10,9 +10,37 @@
 </head>
 
 <body>
+    <div class="container">
 
+        <h1 id="winner" class>"Click button for winner"</h1>
 
-    <script src="main.js"></script>
+        <div class="player player__1">
+            <p>Player 1</p>
+            <p id="score1"></p>
+            <label for="p1__height">Height :</label>
+            <input type="text" class="player__height" id="p1__height" placeholder="Enter numbers only">
+            <label for="p1__age">Age :</label>
+            <input type="text" class="player__age" id="p1__age" placeholder="Enter numbers only">
+        </div>
+        <div class="player player__2">
+            <p>Player 2</p>
+            <p id="score2"></p>
+            <label for="p2__height">Height :</label>
+            <input type="text" class="player__height" id="p2__height" placeholder="Enter numbers only">
+            <label for="p2__age">Age :</label>
+            <input type="text" class="player__age" id="p2__age" placeholder="Enter numbers only">
+        </div>
+        <div class="player player__3">
+            <p>Player 3</p>
+            <p id="score3"></p>
+            <label for="p3__height">Height :</label>
+            <input type="text" class="player__height" id="p3__height" placeholder="Enter numbers only">
+            <label for="p3__age">Age :</label>
+            <input type="text" class="player__age" id="p3__age" placeholder="Enter numbers only">
+        </div>
+        <button class="btn" id="button">Click for winner</button>
+        <button class="btn" id="reset">click to reset</button>
+    </div>
 </body>
 
 </html>
